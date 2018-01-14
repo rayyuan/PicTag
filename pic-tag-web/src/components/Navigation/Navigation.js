@@ -5,7 +5,7 @@ const Navigation=()=>{
     <nav>
       <p>Sign Out</p>
     </nav>
-  )
+  );
 }
 
-export defualt Navigation;
+export default Navigation;
