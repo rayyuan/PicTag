@@ -6,7 +6,16 @@ import Rank from './components/Rank/Rank';
 import Particles from 'react-particles-js';
 import './App.css';
 
+
 class App extends Component {
+  constructor(){
+    super()
+      input:''
+    }
+  }
+  onInputChange=(event)=>{
+    this.setState(input:event.target.value);
+  }
   render() {
     return (
       <div className="App">
