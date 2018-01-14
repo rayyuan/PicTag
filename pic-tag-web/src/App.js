@@ -10,11 +10,12 @@ import './App.css';
 class App extends Component {
   constructor(){
     super()
-      input:''
+    this.state={
+      input:'',
     }
   }
   onInputChange=(event)=>{
-    this.setState(input:event.target.value);
+    this.setState({input:event.target.value});
   }
   render() {
     return (
@@ -22,11 +23,11 @@ class App extends Component {
         <Navigation />
         <Logo />
         <Rank />
-        <ImageLinkForm />
-        {}
+        <ImageLinkForm onInputChange={this.onInputChange}/>
       </div>
     );
   }
 }
+
 
 export default App;
