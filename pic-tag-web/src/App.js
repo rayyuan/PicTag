@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navigation from './components/Navigation/Navigation';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
+import Recognition from './components/Recognition/Recognition';
 import Rank from './components/Rank/Rank';
 import Particles from 'react-particles-js';
 import './App.css';
