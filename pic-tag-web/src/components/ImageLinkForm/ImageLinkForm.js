@@ -2,9 +2,12 @@ import React from 'react';
 
 const ImageLinkForm=()=>{
   return(
-    <nav style={{display:'flex',justifyContent:'flex-end'}}>
-      <p className='f3 link dim black underline pa3 pointer'>Sign Out</p>
-    </nav>
+    <div>
+      <p className='f3'>
+        {'This Magic Brain will process your picture. Give it a try!'}
+      </p>
+    </div>
+
   );
 }
 
